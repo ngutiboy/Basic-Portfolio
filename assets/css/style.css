@@ -1,25 +1,21 @@
 
 body{
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
-    
-    margin: 10px;
+    background-color: #ffffff
+    margin-left: 0px;
+    margin-top: 0px;
     padding: 10px;
-    background-size: cover;
-    background-color: aqua
     border-color: #dddddd;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left
-    background color :#ffffff;
-}
-h1{
- position: absolute;
- background-color: #ffffff;
- border: 2opx;
- border-color: #cccccc
+    border-top-left-radius: 10px;
+    position: left;
+    border-wigth: 960px;
 
+}
+
+h1{
+
+}
+}
     
 
 
@@ -28,18 +24,15 @@ h1{
   h2 {
       background-color:#ffffff;
       color: aqua;
-      text-align: center;
+      text-align: left;
       padding: 10px;
   }
   .container{
       width: 960px;
+      border-block-end-color: black;
+      border-radius: 10px;
   }
-  section id-1 {
-      align-self: auto;
-  }
-    
 
-body
 footer
 {
 
@@ -47,6 +40,14 @@ footer
     position: fixed;
     padding-left: 100px;
     background-color:#666666;
+}
+@media( max-width: 700px) {
+    body{
+    background-color: #ffffff
+}
+
+
+
 
 
 }
