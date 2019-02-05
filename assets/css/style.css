@@ -1,53 +1,62 @@
 
-body{
-    background-color: #ffffff
-    margin-left: 0px;
-    margin-top: 0px;
+.container-fluid{
+    background-image: url("https://media.giphy.com/media/zgduo4kWRRDVK/giphy.gif");
+    margin-left: 10px;
+    margin-top: 10px;
     padding: 10px;
     border-color: #dddddd;
     font-family: Arial, Helvetica, sans-serif;
-    border-top-left-radius: 10px;
-    position: left;
-    border-wigth: 960px;
+    width: 960px;
+    position:center;
 
 }
 
-h1{
 
+.header{
+    padding: 10px;
+    margin: 10px;
+    background-color: #666666;
 }
-}
-    
 
 
-
-  }
-  h2 {
+p{
       background-color:#ffffff;
       color: aqua;
       text-align: left;
       padding: 10px;
   }
-  .container{
-      width: 960px;
-      border-block-end-color: black;
-      border-radius: 10px;
+  h2{
+      background-color: #666666;
   }
+  .att{
+      background-color: #666666;
+  }
+  ul{
+      background-color: #666666;
+  }
+  .col-3{
+      background-color: #666666;
+  }
+  
+  
 
-footer
-{
-
-    margin: 50px;
+footer{
+ margin: 50px;
     position: fixed;
     padding-left: 100px;
     background-color:#666666;
 }
-@media( max-width: 700px) {
-    body{
-    background-color: #ffffff
+@media screen and  (max-width: 900px) {
+    .container-fluid{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+    }
+   
 }
 
 
 
 
 
-}

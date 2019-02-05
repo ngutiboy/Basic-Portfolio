@@ -1,1 +1,2 @@
-This is just a demo which will be deleted later
+modified version of personal portforlio
+extra links for more information and video added
